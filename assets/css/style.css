@@ -555,10 +555,6 @@ main {
   line-height: 1.6;
 }
 
-/**
- * #testimonials-modal
- */
-
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
@@ -1586,4 +1582,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+/*BUTTONS*/
+.buttondownload {
+  display: inline-block;
+  font-size: var(--fs-5);
+  font-weight: var(--fw-300);
+  background-color: var(--first-color);
+  color: var(--orange-yellow-crayola);
+  padding: 15px 45px;
+  border-radius: 8px;
+}
+ 
+.buttondownload:hover {
+  box-shadow: 0px 10px 36px rgba(185, 126, 126, 0.15);
 }
